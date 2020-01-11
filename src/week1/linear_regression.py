@@ -18,7 +18,7 @@ X = np.concatenate((ones,X),axis=1)
 
 y = df.iloc[:,num_col-1:].values
 
-epoch= 100000
+epoch= 1000
 learn_rate= 0.001
 
 theta = np.zeros([1,num_col])
